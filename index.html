@@ -16,7 +16,10 @@
         <img class="logo" src="assets/images/logo.png" alt="logo">
     </h2>
     
+    <!-- create home page container-->
     <div class="home-page-box">
+
+        <!-- form elements and submit buttons-->
         <form action="" class="form" name="id" onsubmit="Submitted(event)">
             <div class="input-field">
                 <input type="text" id="name" required>
@@ -49,19 +52,22 @@
     <div class="question-box">
         <div class="question-box-header">
             <div class="question-number"></div>
-            <div class="user"></div>
+            <div class="user">
+                <span class="name">Welcome! </span>
+            </div>
         </div>
     </div>
     
-    
+    <!-- question-box body and answers section-->
     <div class="question-text"></div>
-
     <div class="option-wrapper"></div>
-
-    <div class="next-question-btn"></div>
-
+    <div class="next-question-btn">
+        <button type="button" class="btn" onclick="next()">Next</button>
+        <button type="button" class="btn" id="reset-btn" onclick="restartQuiz()">Reset Quiz</button>
+    </div>
+    
+    <!-- answers indicators area -->
     <div class="answers-area"></div>
-
     <div class="score-box">
         <table>
 
