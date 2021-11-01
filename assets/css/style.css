@@ -44,3 +44,31 @@ h6, span {
 	align-items: center;
 }
 
+/* form on front page */
+.form {
+    position: relative;
+    width: 100%;;
+    max-width: 700px;
+    padding: 20px 40px 40px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.form .input-field {
+    position: relative;
+}
+
+.form .input-field input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.form .input-field label {
+
+}
+
