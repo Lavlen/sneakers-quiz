@@ -72,3 +72,29 @@ h6, span {
 
 }
 
+.fa-user {
+	font-size: 20px;
+	color: #ff652f;
+}
+
+.instructions {
+	color: #fff;
+	font-weight: 400px;
+	font-size: 20px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.instructions ol {
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+}
+
+.hidden-box {
+    max-width: 700px;
+    background-color: #ccc;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 7px;
+    animation: fadeInRight 1s ease;
+} 
