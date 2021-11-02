@@ -5,7 +5,7 @@ const scoreBox = document.querySelector(".score-box");
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionWrapper = document.querySelector(".option-wrapper");
-const answerSection = document.querySelector(".answers-section");
+const answerSection = document.querySelector(".answers-area");
 const maxNumQuestions = 10; // sets the total number of questions in the quiz
 
 let questionCounter = 0; // holds the value of the number of each question
@@ -39,6 +39,11 @@ function startQuiz() {
     setNewQuestions();
     getNextQuestion();
     answersButtons();
+}
+
+// store total number of questions available to user into max number of questions variable on load
+window.load = function () {
+    homePageBox.querySelector(".number-of-questions").innerHTML = maxNumQuestions;
 }
 
 function setNewQuestions() {
