@@ -16,4 +16,58 @@ let correctAnswers = 0; // holds the value of the number of correctly answered q
 let answered = 0; // holds the value of the number of attempted questions
 let userName = sessionStorage.getItem("name"); // holds the value of the username entered in the form
 
+function submitted() {
 
+}
+
+function loadHomePage() {
+
+}
+
+function startQuiz() {
+
+}
+
+function setNewQuestions() {
+
+}
+
+function getNextQuestion() {
+
+}
+
+function getResult() {
+
+}
+
+function cannotSelectOptions() {
+
+}
+
+function answersButtons() {
+
+}
+
+function UpdateAnswersButtons() {
+
+}
+
+function next() {
+
+}
+
+function endOfQuiz() {
+
+}
+
+function quizScore() {
+
+}
+
+function resetQuiz() {
+
+}
+
+function restartQuiz() {
+    
+}
