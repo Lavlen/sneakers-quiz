@@ -16,9 +16,14 @@ let correctAnswers = 0; // holds the value of the number of correctly answered q
 let answered = 0; // holds the value of the number of attempted questions
 let userName = sessionStorage.getItem("name"); // holds the value of the username entered in the form
 
-function submitted() {
-
+// stores usernames when submitted
+function submitted(e) {
+    e.preventDefault();
+    let namee = document.forms["id"]["name"].value;
+    sessionStorage.setItem("name", namee);
 }
+// returns the value of the name submitted in the form
+document.querySelector("span.name").innerHTML = userName;
 
 function loadHomePage() {
 
@@ -69,5 +74,5 @@ function resetQuiz() {
 }
 
 function restartQuiz() {
-    
+
 }
