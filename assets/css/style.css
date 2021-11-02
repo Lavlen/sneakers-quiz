@@ -196,6 +196,7 @@ button.btn {
 		opacity: 0.9;
 	}
 }
+/* animated slide in green color effect to display correct option */
 .questions-box .option-wrapper .option.correct::before {
     content: '';
     position: absolute;
@@ -207,5 +208,49 @@ button.btn {
     z-index: -1;
     animation: slideInLeft .5s ease forwards
 }
-
+@keyframes slideInLeft{
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+	 transform: translateX(0%);	
+	}
 }
+
+/* animated slide in red color effect when incorrect option is chosen */
+.questions-box .option-wrapper .option.wrong::before{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    z-index: -1;
+    animation: slideInLeft .5s ease forwards
+   }
+.questions-box .option-wrapper .option.wrong{
+    color:#ffffff;
+   }
+.questions-box .option-wrapper .option.correct{
+    color:#ffffff;
+   }
+.questions-box .btn{
+       margin:15px 0;
+   }
+
+   /* border above answers section */
+.questions-box .answers-area{
+    border-top: 2px solid #FFE3D0;
+}
+/* indicators for correct and incorrect answers */
+.questions-box .answers-area div {
+    height: 27px;
+    width: 27px;
+    display: inline-block;
+    background-color: #fdd6e5;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-top: 15px;
+}
+	
