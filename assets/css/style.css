@@ -90,6 +90,7 @@ h6, span {
     font-size: 18px;
 }
 
+/* hidden box with next question button*/
 .hidden-box {
     max-width: 700px;
     background-color: #ccc;
@@ -98,3 +99,27 @@ h6, span {
     border-radius: 7px;
     animation: fadeInRight 1s ease;
 } 
+/* contains and hides hidden box and prevent overflow */
+.hidden-box::before,
+.hidden-box::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+.hidden-box.hide{
+	display:none;
+}
+
+button.btn {
+    background-color: #ff652f;
+    color: #ccc;
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#reset-btn {
+	float: right;
+}
