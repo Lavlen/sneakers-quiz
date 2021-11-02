@@ -123,3 +123,21 @@ button.btn {
 #reset-btn {
 	float: right;
 }
+
+/* question box container */
+.questions-box{
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.9);
+}
+
+/* float elements left */
+.questions-box .question-number,
+.questions-box .question-text,
+.questions-box .option-wrapper,
+.questions-box .next-question-btn,
+.questions-box .answers-section {
+   width: 100%;
+   float: left;
+}
