@@ -141,3 +141,71 @@ button.btn {
    width: 100%;
    float: left;
 }
+.question-box-header {
+    display: flex;
+    background-color: #ff652f;
+    border-radius: 7px;
+    padding: 15px;
+    line-height: 25px;
+}
+.question-box .question-number {
+    font-size: 18px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+.questions-box .question-text {
+    font-size: 18px;
+	line-height: 28px;
+	padding: 16px;
+	margin:0;
+}
+.questions-box .question-text img {
+    max-width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.questions-box .option-wrapper .option{
+	background-color: rgba(0, 0, 0, 0.5);;
+	padding: 13px 15px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 22px;
+	border-radius: 8px;
+	border: 2px solid #fff;
+	margin-bottom: 10px;
+	cursor: pointer;
+	opacity:0;
+	animation: fadeIn 0.3s ease forwards;
+	position: relative;
+	overflow:hidden;
+}
+
+.questions-box .option-wrapper .option:hover{
+	background-color: #252525;
+}
+.questions-box .option-wrapper .option.already-answered{
+	pointer-events: none;
+}
+
+/* keyframe sets the animation opacity on the option boxes  */
+@keyframes fadeIn{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 0.9;
+	}
+}
+.questions-box .option-wrapper .option.correct::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    z-index: -1;
+    animation: slideInLeft .5s ease forwards
+}
+
+}
