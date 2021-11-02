@@ -128,11 +128,18 @@ function getResult(element) {
 }
 
 function cannotSelectOptions() {
-
+    const optionLen = optionWrapper.children.length;
+    for(let i=0 ; i<optionLen; i++){
+    	optionWrapper.children[i].classList.add("already-answered");
+    }
 }
 
 function answersButtons() {
-
+    answerSection.innerHTML = '';
+ 	  const totalQuestion = maxNumQuestions;
+ 	  for(let i=0; i<totalQuestion; i++){
+ 	  	  const buttons = document.createElement("div");
+         answerSection.appendChild(buttons);
 }
 
 function UpdateAnswersButtons() {
