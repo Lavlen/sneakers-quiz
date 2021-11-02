@@ -127,6 +127,7 @@ function getResult(element) {
    cannotSelectOptions();
 }
 
+// cannot select another option | all options cannot select
 function cannotSelectOptions() {
     const optionLen = optionWrapper.children.length;
     for(let i=0 ; i<optionLen; i++){
@@ -135,23 +136,32 @@ function cannotSelectOptions() {
 }
 
 function answersButtons() {
-    answerSection.innerHTML = '';
- 	  const totalQuestion = maxNumQuestions;
- 	  for(let i=0; i<totalQuestion; i++){
- 	  	  const buttons = document.createElement("div");
-         answerSection.appendChild(buttons);
+    answerArea.innerHTML = '';
+ 	const totalQuestion = maxNumQuestions;
+ 	for(let i=0; i<totalQuestion; i++){
+ 	const buttons = document.createElement("div");
+    answerArea.appendChild(buttons);
+    }
 }
 
-function UpdateAnswersButtons() {
-
+function UpdateAnswersButtons(markType) {
+    answerArea.children[questionCounter-1].classList.add(markType);
 }
 
+// loop through questions until questions complete
 function next() {
-
+    if(questionCounter === maxNumQuestions){
+        endOfQuiz();
+    }
+    else {
+        getNextQuestion();
+    }    
 }
-
+// show score box at quiz end 
 function endOfQuiz() {
-
+    quizBox.classList.add("hide");
+    scoreBox.classList.remove("hide");
+    quizScore();
 }
 
 function quizScore() {
