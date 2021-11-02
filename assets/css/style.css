@@ -269,4 +269,80 @@ button.btn {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+/* score box */
+.score-box{
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	margin-top: 20px;
+}
+.score-box.hide{
+	display: none;
+}
+
+.score-box h1{
+	font-size: 36px;
+	line-height: 42px;
+	color:#ccc;
+}
+
+/* table in score box that displays results */
+.score-box table{
+	width: 100%;
+	border-collapse: collapse;
+	margin:30px 0;
+}
+.score-box table td{
+	border:1px solid #cccccc;
+	padding:8px 15px;
+	font-weight: 500;
+	color:#cccccc;
+	width: 50%;
+	text-align: left;
+	font-size: 18px;
+}
+.score-box .btn{
+	margin-right: 20px;
+}
+
+/*media query for medium to small screen sizes*/
+@media(max-width: 767px){
+	.score-box .btn{
+		margin-bottom: 15px;
+	}
+	body{
+		padding: 15px;
+	}
+}
+
+/* style footer */
+.footer {
+	clear: both;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	background-color: transparent;
+	height: 75px;
+}
+
+/*footer text and social media*/
+.footer p {
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #fff;
+	text-align: center;
+}
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia > li {
+    display: inline;
+}
+
+.socialmedia i {
+    font-size: 160%;
+    margin: 0px;
+    padding: 1%;
+    color: #ff652f;
+}
 	
