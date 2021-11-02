@@ -48,9 +48,9 @@ window.load = function () {
 
 //push new questions into newQuestions array
 function setNewQuestions() {
-    const totalQuestion = quiz.length;
+    const totalQuestion = index.length;
     for(let i=0; i<totalQuestion; i++){
-    	newQuestions.push(quiz[i]);
+    	newQuestions.push(index[i]);
     }
 }
 
@@ -73,9 +73,10 @@ function getNextQuestion() {
        questionText.appendChild(img);
     }
     
-    // set options, options lenght then push into newOptions array | set random options
+    // set options, options length then push into newOptions array | set random options
     // get the position of optionIndex form the newOptions array 
     // remove optionsIndex from the newOptions array to avoid repeating options
+    // set transition animation delay on question options 
     const optionLen = questionInProgress.options.length;
     for(let i=0; i<optionLen; i++){
         newOptions.push(i)
@@ -100,8 +101,30 @@ function getNextQuestion() {
     questionCounter++;
 }
 
-function getResult() {
-
+// get result of question in progress | compare answer by selected option id
+// make correct option green | mark indicator correct
+function getResult(element) {
+    const id = parseInt(element.id);
+    if(id === questionInProgress.answer){
+        element.classList.add("correct");
+        UpdateAnswersButtons("correct");
+     	correctAnswers++;
+    }
+    else{
+        // set incorrect option to red if option selected is incorrect | update answer buttons 
+        element.classList.add("wrong");
+        UpdateAnswersButtons ("wrong");
+        
+        // color correct option green if answer to questionInProgress is incorrect 
+        const optionLen = optionWrapper.children.length;
+        for(let i=0; i<optionLen; i++){
+        	if(parseInt(optionWrapper.children[i].id) === questionInProgress.answer){
+              optionWrapper.children[i].classList.add("correct");  		
+        	}
+        }   
+     }
+   answered++;
+   cannotSelectOptions();
 }
 
 function cannotSelectOptions() {
