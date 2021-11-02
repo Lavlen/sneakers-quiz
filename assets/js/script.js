@@ -46,11 +46,32 @@ window.load = function () {
     homePageBox.querySelector(".number-of-questions").innerHTML = maxNumQuestions;
 }
 
+//push new questions into newQuestions array
 function setNewQuestions() {
-
+    const totalQuestion = quiz.length;
+    for(let i=0; i<totalQuestion; i++){
+    	newQuestions.push(quiz[i]);
+    }
 }
 
+// sets the next available question number, question and choices
+// set the number of the question
 function getNextQuestion() {
+    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + maxNumQuestions;
+
+    // set question text | get random newQuestion | get the place count of questionIndex from the new questions Array
+    // remove the questionIndex from the newQuestion Array to avoid questions repeating
+    // show question images if available
+    const questionIndex = newQuestions[Math.floor(Math.random() * newQuestions.length)];
+    questionInProgress = questionIndex;
+    questionText.innerHTML = questionInProgress.q;
+    const indexPosition= newQuestions.indexOf(questionIndex);
+    newQuestions.splice(indexPosition,1);
+    if(questionInProgress.hasOwnProperty("img")){
+       const img = document.createElement("img");
+       img.src = questionInProgress.img;
+       questionText.appendChild(img);
+    }
 
 }
 
