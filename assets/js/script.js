@@ -72,7 +72,32 @@ function getNextQuestion() {
        img.src = questionInProgress.img;
        questionText.appendChild(img);
     }
-
+    
+    // set options, options lenght then push into newOptions array | set random options
+    // get the position of optionIndex form the newOptions array 
+    // remove optionsIndex from the newOptions array to avoid repeating options
+    const optionLen = questionInProgress.options.length;
+    for(let i=0; i<optionLen; i++){
+        newOptions.push(i)
+    }
+    optionWrapper.innerHTML = '';
+    let animationDelay = 0.20;
+    for(let i=0; i<optionLen; i++){
+       const optionsIndex = newOptions[Math.floor(Math.random() * newOptions.length)];
+       const indexPosition2 =  newOptions.indexOf(optionsIndex);
+       newOptions.splice(indexPosition2,1);
+       const option = document.createElement("div");
+       option.innerHTML = questionInProgress.options[optionsIndex];
+       option.id = optionsIndex;
+       option.style.animationDelay =animationDelay + 's';
+       animationDelay = animationDelay + 0.20;
+       option.className = "option";
+       optionWrapper.appendChild(option);
+       option.setAttribute("onclick","getResult(this)");
+    }
+    console.log(newQuestions)
+    console.log(newQuestions)
+    questionCounter++;
 }
 
 function getResult() {
