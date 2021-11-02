@@ -25,12 +25,20 @@ function submitted(e) {
 // returns the value of the name submitted in the form
 document.querySelector("span.name").innerHTML = userName;
 
+// load home page
 function loadHomePage() {
-
+    scoreBox.classList.add("hide");
+    homePageBox.classList.remove("hide");
+    resetQuiz();
 }
-
+// start the quiz | hide home-page-box | questions box | set new questions in array
+// then call function to get next available question | call function to create answers indicators
 function startQuiz() {
-
+    homePageBox.classList.add("hide");
+    quizBox.classList.remove("hide");
+    setNewQuestions();
+    getNextQuestion();
+    answersButtons();
 }
 
 function setNewQuestions() {
