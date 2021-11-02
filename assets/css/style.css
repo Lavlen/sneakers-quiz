@@ -279,7 +279,6 @@ button.btn {
 .score-box.hide{
 	display: none;
 }
-
 .score-box h1{
 	font-size: 36px;
 	line-height: 42px;
@@ -314,7 +313,6 @@ button.btn {
 		padding: 15px;
 	}
 }
-
 /* style footer */
 .footer {
 	clear: both;
