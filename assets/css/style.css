@@ -253,4 +253,20 @@ button.btn {
     margin-right: 3px;
     margin-top: 15px;
 }
+
+/* adds a cross or tick and color indicators red or green */
+.questions-box .answers-area div.correct{
+	background-color: green;
+	background-image: url("../images/tick.png");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.questions-box .answers-area div.wrong{
+	background-color: red;
+	background-image: url("../images/cross.png");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 	
