@@ -41,12 +41,13 @@ h6, span {
 .quiz-name .logo {
     align-content: center;
     padding: 10px 0 10px;
-    
+ 
 }
 
 /* main home page container */
 .home-page-box {
-	display: flex;
+	margin-top: 10px;
+    display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -73,10 +74,11 @@ h6, span {
     padding: 10px 0;
     margin-bottom: 30px;
     background-color: transparent;
+    color: #ccc;
 }
 
 .form .input-field label {
-
+    color: #ccc;
 }
 
 .fa-user {
@@ -155,6 +157,13 @@ button.btn {
     padding: 15px;
     line-height: 25px;
 }
+
+.user {
+	display: flex;
+	padding-top 0;
+	line-height: 25px;
+}
+
 .question-box .question-number {
     font-size: 18px;
     padding-bottom: 10px;
