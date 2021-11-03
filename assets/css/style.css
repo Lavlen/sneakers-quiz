@@ -374,7 +374,7 @@ button.btn {
     }
 }
 /* media query medium screens */
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
 
     body {
     	padding: 10px;
@@ -386,4 +386,4 @@ button.btn {
 	padding: 10px;
 	margin: 4px 4px;
 	}
-}	
+}	 */
