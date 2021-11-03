@@ -1,12 +1,12 @@
 
 
  // Array of Objects
- const index = [
+ const quiz = [
     {
         q:'Which were the most expensive sneakers ever sold in a private sale ?',
         options:['A. Kanye West Nike Air Yeezy 1 "Prototype"','B. Gola Gold','C. Air Jordan 1','D. Nike 1972 Waffle Racing Flat "Moon Shoe"'],
         answer:0,
-      img:'images/mostExpensiveSneakers.png'
+      img:'assets/images/mostExpensiveSneakers.png' 
     },
     {
         q:'The most expensive sneakers to be sold went for ?',
@@ -22,7 +22,7 @@
         q:'What was the name of the Nike sneaker Michael Jordan was contracted to wear in 1984 ?',
         options:['First Edition Nike Air Max','Air Force 1','Air Jordans 1','Air Jordan Vintage'],
         answer:2,
-      img:'images/airJordan1.png'
+      img:'assets/images/airJordan1.png'
     },
     {
         q:'Which sneakers brand did Jessie Owens wear when he won 4 gold medals in the 1936 Olympics ?',
@@ -43,13 +43,13 @@
       q:'The first endorsed Converse shoes were endorsed by:',
       options:['Chuck Taylor','Charlie Smith','Roger Clements','Babe Ruth'],
       answer:0,
-      img:'images/chuckTaylorAllStars.png'
+      img:'assets/images/chuckTaylorAllStars.png'
     },
     {
       q:'Which sneaker below wears the logo of a brand founded in 1924 and made sneakers go international ?',
       options:['A.  Airforce 1','B.  Adidas Superstar','C.  Gola','D.  Dunlop Force'],
       answer:1,
-      img:'images/adidas1924Edition.png'
+      img:'assets/images/adidas1924Edition.png'
     },
     {
       q:'The creator of Adidas Adi Dassler had a brother (Rudi) that created which famous brand:',
@@ -65,13 +65,13 @@
       q:'Select the sneakers with the logo of the brand "The Six Million Dollar Man wore" in the 70s show ?',
       options:['A.  Fila','B.  Adidas','C.  Gola','D.  Vans'],
       answer:1,
-      img:'images/sixMillionDollarManSneakers.png'
+      img:'assets/images/sixMillionDollarManSneakers.png'
     },
     {
       q:'Which of the below brand logos is said to be symbolic of their link to Greek mythology ?',
       options:['Reebok','Puma','Nike','New Balance'],
       answer:2,
-      img:'images/greekMethologyLogo.png'
+      img:'assets/images/greekMethologyLogo.png'
     }, 
     {
       q:'What year did Reebok join the sneaker scene ?',
@@ -92,13 +92,13 @@
       q:'Which of the four NBA stars has the biggest sneaker collection kept in his Sneaker Loft, with almost 5,000 pairs ?',
       options:['Michael Jordan','P.J Tucker','Lebron James','Larry Bird'],
       answer:1,
-      img:'images/pjTucker.png'
+      img:'assets/images/pjTucker.png'
     },
     {
       q:'Which sneakers was made for Nike Cortez ?',
       options:['A','B','C','D'],
       answer:0,
-      img:'images/nikeCortez.png'
+      img:'assets/images/nikeCortez.png'
     },
     {
       q:'In 2020 the global sneaker market was worth approx in pound sterling.',

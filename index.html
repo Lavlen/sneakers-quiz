@@ -44,32 +44,35 @@
             <!--create class to display total questions in quiz and function to start quiz game-->
             <div>
                 <hr>
-                <p>Total number of questions: <span class="number-of-questions"></span></p>
+                <p><h6>Total number of questions: </h6><span class="number-of-questions"></span></p>
                 <button type="button" class="btn" onclick="startQuiz()">Start quiz</button>
             </div>
         </form>
     </div>
     
     <!-- create question-box, and question box header for question number and username -->
-    <div class="question-box hidden-box hide">
+    <div class="questions-box hidden-box hide">
         <div class="question-box-header">
             <div class="question-number"></div>
             <div class="user">
-                <span class="name">Welcome! </span>
+                <h6>Welcome! <span class="name"></h6>
             </div>
         </div>
-    </div>
+       
+        <!-- question-box body and answers section-->
+        <div class="question-text"></div>
+        <div class="option-wrapper"></div>
+        <div class="next-question-btn">
+            <button type="button" class="btn" onclick="next()">Next</button>
+            <button type="button" class="btn" id="reset-btn" onclick="restartQuiz()">Reset Quiz</button>
+        </div>
     
-    <!-- question-box body and answers section-->
-    <div class="question-text"></div>
-    <div class="option-wrapper"></div>
-    <div class="next-question-btn">
-        <button type="button" class="btn" onclick="next()">Next</button>
-        <button type="button" class="btn" id="reset-btn" onclick="restartQuiz()">Reset Quiz</button>
-    </div>
     
     <!-- answers indicators area -->
-    <div class="answers-area"></div>
+        <div class="answers-area"></div>
+    </div>
+
+     <!--score box table-->
     <div class="score-box hidden-box hide">
         <h2>Your results</h2>
 
@@ -85,7 +88,7 @@
             </tr>
             <tr>
                 <td>Answers correct</td>
-                <td><span class="number-of-questions"></span></td>
+                <td><span class="total-correct"></span></td>
             </tr>
             <tr>
                 <td>Incorrect answers</td>
@@ -128,5 +131,6 @@
     </footer>
 
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/question.js"></script>
 </body>
 </html>

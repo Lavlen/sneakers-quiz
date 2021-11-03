@@ -5,7 +5,7 @@ const scoreBox = document.querySelector(".score-box");
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionWrapper = document.querySelector(".option-wrapper");
-const answerSection = document.querySelector(".answers-area");
+const answerArea = document.querySelector(".answers-area");
 const maxNumQuestions = 10; // sets the total number of questions in the quiz
 
 let questionCounter = 0; // holds the value of the number of each question
@@ -42,15 +42,15 @@ function startQuiz() {
 }
 
 // store total number of questions available to user into max number of questions variable on load
-window.load = function () {
+window.onload = function () {
     homePageBox.querySelector(".number-of-questions").innerHTML = maxNumQuestions;
 }
 
 //push new questions into newQuestions array
 function setNewQuestions() {
-    const totalQuestion = index.length;
+    const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
-    	newQuestions.push(index[i]);
+    	newQuestions.push(quiz[i]);
     }
 }
 
@@ -130,7 +130,7 @@ function getResult(element) {
 // cannot select another option | all options cannot select
 function cannotSelectOptions() {
     const optionLen = optionWrapper.children.length;
-    for(let i=0 ; i<optionLen; i++){
+    for(let i=0; i<optionLen; i++){
     	optionWrapper.children[i].classList.add("already-answered");
     }
 }
@@ -164,14 +164,29 @@ function endOfQuiz() {
     quizScore();
 }
 
+// get quiz score
 function quizScore() {
-
+    scoreBox.querySelector(".number-of-questions").innerHTML = maxNumQuestions;
+    scoreBox.querySelector(".questions-tried").innerHTML = answered;
+    scoreBox.querySelector(".total-correct").innerHTML = correctAnswers;
+    scoreBox.querySelector(".total-incorrect").innerHTML = answered - correctAnswers;
+    const percentage = (correctAnswers/maxNumQuestions)*100;
+    scoreBox.querySelector(".percentage").innerHTML = percentage.toFixed(2) + "%";
+    scoreBox.querySelector(".total-score").innerHTML = correctAnswers +" / " + maxNumQuestions;
 }
 
+// reset variables
 function resetQuiz() {
-
+    correctAnswers = 0;
+    questionCounter = 0;
+    answered = 0;
+    newQuestions = [];
 }
 
+//restart quiz from first question
 function restartQuiz() {
-
+    scoreBox.classList.add("hide");
+ 	quizBox.classList.remove("hide");
+    resetQuiz();
+    startQuiz();
 }
