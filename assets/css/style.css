@@ -320,15 +320,6 @@ button.btn {
 	margin-right: 20px;
 }
 
-/*media query for medium to small screen sizes*/
-@media(max-width: 767px){
-	.score-box .btn{
-		margin-bottom: 15px;
-	}
-	body{
-		padding: 15px;
-	}
-}
 /* style footer */
 .footer {
 	clear: both;
@@ -358,5 +349,28 @@ button.btn {
     margin: 0px;
     padding: 1%;
     color: #ff652f;
+}
+
+/* media query phone screens */
+@media screen and (max-width: 768px) {
+	
+    .score-box .btn {
+		margin-bottom: 15px;
+	}
+	body {
+    	padding: 5px;
+	}
+	.form {
+		padding: 5px 5px 10px;
+	}
+	.questions-box {
+	padding: 5px;
+	margin: 2px 2px;
+	}
+    .questions-box .question-text img {
+	height: auto;
+	display: block;
+	margin-top: 10px;
+    }
 }
 	
