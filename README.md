@@ -35,6 +35,9 @@ The app was developed as a fun way for players to develop their general knowledg
 * **Answers area:** these are radio buttons updated with red coloured crosses when the users choice is  incorrect, green tick when it is correct and left empty when a question is skipped without attempting to answer it.
 
 **Score box page** 
+
+<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/scoreBox.PNG" style=width="300" height="350"></p>
+
 * **Table:** the users results are presented in a tabular when the game is completed. The data provided includes the total number of questions in the quiz, the number of attempted questions, correctly and incorrectly answered questions, score percentage and score.
 
 * **Buttons:** a couple of buttons gives the user the options of restarting the quiz (Restart Quiz) button or returning to the home page (Home Page) button.
