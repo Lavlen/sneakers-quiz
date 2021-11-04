@@ -45,8 +45,8 @@ h6, span {
 
 /* main home page container */
 .home-page-box {
-	height: 100vh;
-	width: 100vw;
+	/*height: 100vh;
+	width: 100vw;*/
 	margin-top: 10px;
     display: flex;
 	justify-content: center;
@@ -104,7 +104,7 @@ h6, span {
 .hidden-box {
     max-width: 700px;
     background-color: #ccc;
-    margin: 5px auto;
+    margin: 40px auto;
     padding: 30px;
     border-radius: 7px;
     animation: fadeInRight 1s ease;
@@ -379,7 +379,7 @@ button.btn {
     body {
     	padding: 10px;
 		overflow: hidden;
-		height: 150%;
+		height: 120%;
 	}
 	.form {
 		padding: 10px 10px 15px;
