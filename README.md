@@ -33,9 +33,11 @@ A hover effect ever so slightly changes the shade of each option box to a lighte
 The site's footer text and social media font awesome Icons are also in harmony with the sites colour scheme of orange and light grey. So also is the site logo visible on every page. The dark backgrounds make it easy to look at the screen for long period's of time.
 
 ## Typography
-Playfair Display" and "Open Sans" with "Sans serif" as the fall back font incase the browser does not support the primary font choices.
+"Lato" and "Oswald" with "Sans serif" as the fall back font in the event a browser does not support the first choices.
 
 ## Images
-Bright colored images that are relevant to the site are used throughout to make the site interesting and attractive. The large banner image stands out at the top of the page, intended to grab the visitor's attention when the site loads.
+A variety of images mostly of sneakers used as part of the questions makes the quiz more fun and adds to the variety of types of questions that can be asked during user sessions. The stand out logo image gives the site character and makes it appealing to its young users.
 
 ## Wireframes
+[Draw.io](https://app.diagrams.net/) was used to create the wireframes:
+
