@@ -99,6 +99,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * As a player I want a performance summary at the end of the game to know my score and the number of correct and incorrect answers I gave. 
 ### This is provided at the end of the quiz
 
+#   Deployment
+### GitHub pages provides the hosting service for the site which is deployed from the Github repository by:
 
+1.  Login into Github
+2.  select the repository of the project for deployment
+3.  Select the "settings" option at the top and towards the right of the page
+4.  Scroll down to the "GitHub pages" section
+5.  click on the link "Pages settings now has its own dedicated tab! Check it out here!"
+6.  select the drop down list box "None", select "main" then "save"
+7.  Fing the "GitHub pages" section again at the bottom of the page.
+8.  select the link next to the text "your site is now ready to be published"
 
 
