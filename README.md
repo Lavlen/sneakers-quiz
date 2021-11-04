@@ -51,8 +51,8 @@ The app was developed as a fun way for players to develop their general knowledg
 **Buttons:** a couple of buttons gives the user the options of restarting the quiz (Restart Quiz) button or returning to the home page (Home Page) button.
 
 ### Other features
-**Responsive on all device sizes**
-**include reactive elements**
+* Responsive on all device sizes
+* include reactive elements
 
 ### Features for the future
 * Username and password validation functionality
