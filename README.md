@@ -9,6 +9,7 @@ The app was developed as a fun way for players to develop their general knowledg
 # User Experience  
 
 <img src="/workspace/sneakers-quiz/assets/images/responsiveIImages.PNG" style="max-width:50%;">
+[wireframes are here](https://github.com/Lavlen/sneakers-quiz/tree/main/assets/images/responsiveIImages.PNG)
 
 ## User Stories
 
