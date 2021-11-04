@@ -10,6 +10,11 @@ The app was developed as a fun way for players to develop their general knowledg
 
 <img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/responsiveIImages.PNG" style="max-width:50%;">
 
+### Features
+**Header:** The header logo represents what the site is about; is visible on every page of the app and serves the additional purpose of a link to the home page of the site.
+<p align="center"><img width="300px" height="250px" src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/footerIMG.PNG"></p>
+
+**Footer:** Font awesome icon logos of the website owners social media accounts youtube, facebook, instagram and Twitter can be accessed here.
 
 ## User Stories
 
@@ -24,6 +29,7 @@ The app was developed as a fun way for players to develop their general knowledg
 * As a visitor I want to manage the pace at which the game progresses so that I can think about the answers to the questions before answering.
 * As a lover of sneakers I want be presented with questions displaying images of sneakers.
 * As a player I want a performance summary at the end of the game to know my score and the number of correct and incorrect answers I gave
+* As a user I should be able to access the site owners social media pages to learn more about them and stay informed about the work they are doing
 
 # Design
 ## Color scheme
@@ -99,6 +105,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### 30% of questions in the pool displays images of sneakers to support the questions.
 * As a player I want a performance summary at the end of the game to know my score and the number of correct and incorrect answers I gave. 
 ### This is provided at the end of the quiz
+* As a user I should be able to access the site owners social media pages to learn more about them and stay informed about the work they are doing
+## asscess to the owners' social media is available through links visible in the footer section of the site on every page.
+
 
 #   Deployment
 ### GitHub pages provides the hosting service for the site which is deployed from the Github repository by:
