@@ -363,7 +363,6 @@ button.btn {
 	}
 	.questions-box {
 	padding: 5px;
-	margin: 2px 2px;
 	}
     .questions-box .question-text img {
 	height: auto;
@@ -372,7 +371,7 @@ button.btn {
     }
 }
 /* media query medium screens */
-/* @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
 
     body {
     	padding: 10px;
@@ -382,6 +381,6 @@ button.btn {
 	}
 	.questions-box {
 	padding: 10px;
-	margin: 4px 4px;
+	margin: auto;
 	}
-}	 */
+}	 
