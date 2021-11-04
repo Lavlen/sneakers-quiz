@@ -12,7 +12,7 @@ The app was developed as a fun way for players to develop their general knowledg
 
 ### Features
 **Header:** The header logo represents what the site is about; is visible on every page of the app and serves the additional purpose of a link to the home page of the site.
-<p align="center"><img width="300px" height="250px" src="images/footerIMG.PNG"></p>
+<img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/footerIMG.PNG" style="max-width:50%;">
 
 **Footer:** Font awesome icon logos of the website owners social media accounts youtube, facebook, instagram and Twitter can be accessed here.
 
@@ -29,6 +29,15 @@ The app was developed as a fun way for players to develop their general knowledg
 * **Question area:** this is where the quiz questions are presented to the user which are sometimes accompanied by images of the shoes the questions are about.
 
 * **Options box:** these are the multiple choice options from which the user chooses an answer for the question on display by clicking with the mouse pointer or touching the option on a smart phone, tablet or other touch screen devices. If the chosen option is correct it becomes green through an animated green background fade in transition and red if its incorrect. If the option chosen is incorrect the correct option becomes green to inform the user what the correct answer is.
+
+* **Buttons:** a "Next" and "Reset quiz" button keeps the pace of progression of the quiz in the users control. the next button enables the user to move on to the next question at any point whilst the quiz is in progess. the reset quiz button restarts the quiz and allows those who are unsatisfied with their progress to restart at any time.
+
+* **Answers area:** these are radio buttons updated with red coloured crosses when the users choice is  incorrect, green tick when it is correct and left empty when a question is skipped without attempting to answer it.
+
+**Score box page** 
+* **Table:** the users results are presented in a tabular when the game is completed. The data provided includes the total number of questions in the quiz, the number of attempted questions, correctly and incorrectly answered questions, score percentage and score.
+
+* **Buttons:** a couple of buttons gives the user the options of restarting the quiz (Restart Quiz) button or returning to the home page (Home Page) button.
 
 ## User Stories
 
