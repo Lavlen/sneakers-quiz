@@ -8,7 +8,7 @@ The app was developed as a fun way for players to develop their general knowledg
 
 # User Experience  
 
-<img src="https://github.com/Lavlen/sneakers-quiz/assets/images/nikeCortez.PNG" style="max-width:50%;">
+<img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/responsiveIImages.PNG" style="max-width:50%;">
 
 
 ## User Stories
