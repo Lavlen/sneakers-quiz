@@ -16,7 +16,7 @@ The app was developed as a fun way for players to develop their general knowledg
 
 **Footer:** Font awesome icon logos of the website owners social media accounts youtube, facebook, instagram and Twitter can be accessed here.
 
-<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/FooterImage.PNG" style=width="150" height="100"></p>
+<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/footerImage.PNG" style=width="150" height="100"></p>
 
 **Home page** 
 
