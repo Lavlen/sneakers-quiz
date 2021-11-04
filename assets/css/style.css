@@ -13,7 +13,7 @@ body {
     color: #ccc;
 	font-family: 'lato', sans-serif;
     font-weight: 400;
-    background: url("../images/sand.jpg") no-repeat center center;
+    background: url("../images/pic.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -350,7 +350,7 @@ button.btn {
 }
 
 /* media query phone screens */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 	
     .score-box .btn {
 		margin-bottom: 15px;
@@ -371,7 +371,7 @@ button.btn {
     }
 }
 /* media query medium screens */
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
 
     body {
     	padding: 10px;
@@ -383,4 +383,4 @@ button.btn {
 	padding: 10px;
 	margin: auto;
 	}
-}	 
+}	  */ */
