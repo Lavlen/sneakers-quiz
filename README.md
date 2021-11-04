@@ -164,4 +164,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 7.  Fing the "GitHub pages" section again at the bottom of the page.
 8.  select the link next to the text "your site is now ready to be published"
 
+# Credits
+## Code
+A portion of the code for the web site was taken from [here](https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU)
+and modified.
+
+Code for the form and javaScript login functionality was taken from [here](https://www.youtube.com/watch?v=1ydfKDwsYbU)
+
+## Media
+The image in the logo was taken from [http:www.clker.com](http://www.clker.com/clipart-black-hightop-shoe.html)
+
+The images for the sites background was found in the youtube description of this [vloggers channel](https://www.youtube.com/watch?v=1ydfKDwsYbU&t=914s)
+
+The images for the questions images were taken from:
+* [factmonster.com](https://www.factmonster.com/culture-entertainment/fashion/history-sneakers)
+* [complex.com](https://www.complex.com/sneakers/2011/07/50-sneaker-facts-you-didnt-know/6)
+* [theconversation.com](https://theconversation.com/the-history-of-sneakers-from-commodity-to-cultural-icon-127268)
+* [menshealth.com](https://www.menshealth.com/style/g30690312/history-sneakers-evolution/?slide=1)
+* [rollingstone.com](https://www.rollingstone.com/music/music-news/kanye-west-nike-air-yeezy-prototype-grammys-sale-1161188/)
+* [pngwing.com](https://www.pngwing.com/)
+
+## Content
+* all content was written by the developer
+* The idea for the colour scheme was taken from [here](https://www.youtube.com/watch?v=X9Eh7_FUYzw&t=701s)
+
+## Acknowledgements
+* My Mentor for his guidance
+* The Slack community
 
