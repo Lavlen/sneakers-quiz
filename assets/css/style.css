@@ -350,7 +350,7 @@ button.btn {
 }
 
 /* media query phone screens */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	
     .score-box .btn {
 		margin-bottom: 15px;
@@ -371,10 +371,11 @@ button.btn {
     }
 }
 /* media query medium screens */
-/* @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
 
     body {
     	padding: 10px;
+		overflow: hidden;
 	}
 	.form {
 		padding: 10px 10px 15px;
@@ -383,4 +384,4 @@ button.btn {
 	padding: 10px;
 	margin: auto;
 	}
-}	  */ */
+}	 
