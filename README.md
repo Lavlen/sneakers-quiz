@@ -12,7 +12,7 @@ The app was developed as a fun way for players to develop their general knowledg
 
 ### Features
 **Header:** The header logo represents what the site is about; is visible on every page of the app and serves the additional purpose of a link to the home page of the site.
-<p align center"left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/footerIMG.PNG" style=width="250" height="200"></p>
+<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/footerIMG.PNG" style=width="150" height="100"></p>
 
 **Footer:** Font awesome icon logos of the website owners social media accounts youtube, facebook, instagram and Twitter can be accessed here.
 
