@@ -45,6 +45,8 @@ h6, span {
 
 /* main home page container */
 .home-page-box {
+	height: 100vh;
+	width: 100vw;
 	margin-top: 10px;
     display: flex;
 	justify-content: center;
@@ -377,6 +379,7 @@ button.btn {
     body {
     	padding: 10px;
 		overflow: hidden;
+		height: 150%;
 	}
 	.form {
 		padding: 10px 10px 15px;
