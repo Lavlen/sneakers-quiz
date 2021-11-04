@@ -41,3 +41,34 @@ A variety of images mostly of sneakers used as part of the questions makes the q
 ## Wireframes
 [Draw.io](https://app.diagrams.net/) was used to create the wireframes:
 
+[wireframes are here](https://github.com/Lavlen/sneakers-quiz/tree/main/wireframes)
+
+# Technologies
+##    Languages
+*   HTML5
+*   CSS3
+*   JavaScript
+
+##  Programs and tools used
+* [Google fonts](https://fonts.google.com/?preview.text=Love%20&preview.text_type=custom)
+Fonts used in the site "Lato" and "Oswald" were sourced from Google fonts.
+
+* [Photo shop](https://www.adobe.com/uk/products/photoshop.html)
+Photo shop was used for editing the images used in the quiz. The logo was created in photoshop. 
+
+* [Font awesone](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
+Username name and social media icons sourced from Font awesome
+
+* [Materialise](https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css)
+style buttons,
+
+* [Draw.io](https://app.diagrams.net/)
+Used to create wireframe for small medium and large devices.
+
+### Git
+*   Online version control platform used for recording changes made to the code by storing it in a repository
+
+### Gitpod
+*   Online IDE used for processing the code.
+
+
