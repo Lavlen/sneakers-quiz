@@ -12,11 +12,16 @@ The app was developed as a fun way for players to develop their general knowledg
 
 ### Features
 **Header:** The header logo represents what the site is about; is visible on every page of the app and serves the additional purpose of a link to the home page of the site.
-<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/footerIMG.PNG" style=width="150" height="100"></p>
+<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/headerLogoimage.PNG" style=width="150" height="100"></p>
 
 **Footer:** Font awesome icon logos of the website owners social media accounts youtube, facebook, instagram and Twitter can be accessed here.
 
+<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/FooterImage.PNG" style=width="150" height="100"></p>
+
 **Home page** 
+
+<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/homePage.PNG" style=width="300" height="350"></p>
+
 * **User logging field:** enables the user to enter and submit thier usernames optionally, which is then displayed on the quiz-container header whilst the game is in progress. This personalises the playing experience and makes the visitor feel welcome. 
 
 * **Instructions:** easy to understand instructions on how to play the quiz and navigate the site is provided so that the user can get started with playing the game as quickly as possible
@@ -24,6 +29,9 @@ The app was developed as a fun way for players to develop their general knowledg
 * **Start Quiz button** the option to start the game as soon as the home page is loaded is available to visitors who have previously attended the site and first time visitors who do not care much about reading instructions.
 
 **Questions page**
+
+<p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/questionsPage.PNG" style=width="300" height="350"></p>
+
 * **Questions Header:** displays the question number of the question in progress, total questions available to be answered and a welcome user message to the user. This area enables users to monitor their progress.
 
 * **Question area:** this is where the quiz questions are presented to the user which are sometimes accompanied by images of the shoes the questions are about.
