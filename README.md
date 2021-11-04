@@ -10,3 +10,32 @@ The app was developed as a fun way for players to develop their general knowledg
 
 <img src="/workspace/sneakers-quiz/assets/images/responsiveIImages.PNG" style="max-width:50%;">
 
+## User Stories
+
+* As a first time visitor to the site I want to be able to read step by step instructions on how to play the game.
+* As I regular site user I want to be presented with new questions each time I play the game.
+* As a user, I want to be able to use the app on my desktops, tablets and mobile devices.
+* As a user I want to be able to restart the game at any point should I not be satisfied with my progress.
+* As a visitor to the site I want to be able to navigate it easily and not be confused at any point
+* As a visitor to the site I should be able to access the home page from any page on the site.
+* As an avid gamer I want to be able to monitor my progress throughout the game and have the option to restart should I be dissatisfied with my performance.
+* As a player of the game I want to know what the correct answers are for the questions I answered incorrectly.
+* As a visitor I want to manage the pace at which the game progresses so that I can think about the answers to the questions before answering.
+* As a lover of sneakers I want be presented with questions displaying images of sneakers.
+* As a player a want a performance summary at the end of the game to know my score and the number of correct and incorrect answers I gave
+
+# Design
+## Color scheme
+The colors used in the app design is intended to make it playful, cool and young. Shades of light grey, white (#fff, #CCC) and orange (#ff652f) are the main colours used in the design and stand out against dark transparent containers (rgba(0, 0, 0, 0.5)) on top of a dark background on all three pages of the site.
+
+A hover effect ever so slightly changes the shade of each option box to a lighter shade of grey (#252525) to give the user an interactive feel when playing the quiz. Green and Red background colours update both the answer indicators at the bottom of the questions container and option boxes when correct and incorrect options are selected.
+
+The site's footer text and social media font awesome Icons are also in harmony with the sites colour scheme of orange and light grey. So also is the site logo visible on every page. The dark backgrounds make it easy to look at the screen for long period's of time.
+
+## Typography
+Playfair Display" and "Open Sans" with "Sans serif" as the fall back font incase the browser does not support the primary font choices.
+
+## Images
+Bright colored images that are relevant to the site are used throughout to make the site interesting and attractive. The large banner image stands out at the top of the page, intended to grab the visitor's attention when the site loads.
+
+## Wireframes
