@@ -16,6 +16,20 @@ The app was developed as a fun way for players to develop their general knowledg
 
 **Footer:** Font awesome icon logos of the website owners social media accounts youtube, facebook, instagram and Twitter can be accessed here.
 
+**Home page** 
+* **User logging field:** enables the user to enter and submit thier usernames optionally, which is then displayed on the quiz-container header whilst the game is in progress. This personalises the playing experience and makes the visitor feel welcome. 
+
+* **Instructions:** easy to understand instructions on how to play the quiz and navigate the site is provided so that the user can get started with playing the game as quickly as possible
+
+* **Start Quiz button** the option to start the game as soon as the home page is loaded is available to visitors who have previously attended the site and first time visitors who do not care much about reading instructions.
+
+**Questions page**
+* **Questions Header:** displays the question number of the question in progress, total questions available to be answered and a welcome user message to the user. This area enables users to monitor their progress.
+
+* **Question area:** this is where the quiz questions are presented to the user which are sometimes accompanied by images of the shoes the questions are about.
+
+* **Options box:** these are the multiple choice options from which the user chooses an answer for the question on display by clicking with the mouse pointer or touching the option on a smart phone, tablet or other touch screen devices. If the chosen option is correct it becomes green through an animated green background fade in transition and red if its incorrect. If the option chosen is incorrect the correct option becomes green to inform the user what the correct answer is.
+
 ## User Stories
 
 * As a first time visitor to the site I want to be able to read step by step instructions on how to play the game.
