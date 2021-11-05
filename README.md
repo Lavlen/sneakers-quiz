@@ -178,8 +178,6 @@ User testing was carried out by Friends and family members in an effort to locat
 A portion of the code for the web site was taken from [here](https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU)
 and modified.
 
-Code for the form and javaScript login functionality was taken from [here](https://www.youtube.com/watch?v=1ydfKDwsYbU)
-
 ## Media
 The image in the logo was taken from [http:www.clker.com](http://www.clker.com/clipart-black-hightop-shoe.html)
 
@@ -194,7 +192,7 @@ The images for the questions images were taken from:
 * [pngwing.com](https://www.pngwing.com/)
 
 ## Content
-* all content was written by the developer
+* All content was written by the developer
 * The idea for the colour scheme was taken from [here](https://www.youtube.com/watch?v=X9Eh7_FUYzw&t=701s)
 
 ## Acknowledgements
