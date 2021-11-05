@@ -123,8 +123,7 @@ Used to create wireframe for small medium and large devices.
 *   Online IDE used for processing the code.
 
 # Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-* [Link to screenshots of 4 html and 1 CSS validated pages](https://github.com/Lavlen/sneakers-quiz/tree/main/testing)
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project code to ensure there were no syntax errors. Alighthouse report was generated to ensure quality standards were met. The reports can be seen [here](https://github.com/Lavlen/sneakers-quiz/tree/main/testing)
 
 ##  Testing User Stories (UX)
 1. As a first time visitor to the site I want to be able to read step by step instructions on how to play the game.
@@ -152,16 +151,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 10. As a user I should be able to access the site owners social media pages to learn more about them and stay informed about the work they are doing
   - asscess to the owners' social media is available through links visible in the footer section of the site on every page.
 
-  ## Further testing
+  ### Further testing
 The web application was tested on the 5 most commonly used browsers for browser specific compatibility errors.The types were Google Chrome, Microsoft Edge, Internet Explorer, Safari and Firefox. No errors were identified on any of the browser platforms.
 
 The application was viewed and played on the following devices windows desktop PC, a ProBook-450-G4 laptop, iPhone7, Samsung Galaxy S7 and S9. The app functioned as it should on the various device sizes.
 
 User testing was carried out by Friends and family members in an effort to locate known bugs and or user experience issues.
 
-## Code validation
-W3 Validation results
-
+## Bugs
+* Prior to resolving the issue the background image was not covering the whole of the browser window on medium size devices. 
 
 # Deployment
 **GitHub pages provides the hosting service for the site which is deployed from the Github repository by:**
