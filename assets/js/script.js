@@ -14,21 +14,21 @@ let newQuestions = []; // holds new questions array
 let newOptions = []; // holds new options array
 let correctAnswers = 0; // holds the value of the number of correctly answered questions
 let answered = 0; // holds the value of the number of attempted questions
-let userName = sessionStorage.getItem("name"); // holds the value of the username entered in the form
+// let userName = sessionStorage.getItem("name"); // holds the value of the username entered in the form
 
-function removeSpaces(string) {
-    return string.split(' ').join('');
-}
+// function removeSpaces(string) {
+//     return string.split(' ').join('');
+// }
 
-// stores usernames when submitted
-function submitted(e) {
-    e.preventDefault();
-    let namee = document.forms["id"]["name"].value;
-    sessionStorage.setItem("name", namee);
-    alert("Your name has been")
-}
-// returns the value of the name submitted in the form
-document.querySelector("span.name").innerHTML = userName;
+// // stores usernames when submitted
+// function submitted(e) {
+//     e.preventDefault();
+//     let namee = document.forms["id"]["name"].value;
+//     sessionStorage.setItem("name", namee);
+//     alert("Your name has been")
+// }
+// // returns the value of the name submitted in the form
+// document.querySelector("span.name").innerHTML = userName;
 
 // load home page
 function loadHomePage() {

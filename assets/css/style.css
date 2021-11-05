@@ -65,27 +65,7 @@ h6, span {
     text-align: center;
 }
 
-/* .myform .input-field {
-    position: relative;
-}
-
-.myform .input-field input {
-    width: 100%;
-    padding: 10px 0;
-    margin-bottom: 30px;
-    background-color: transparent;
-    color: #ccc;
-} */
-
-/* .myform .input-field label {
-    color: #ccc;
-} */
-
-.fa-user {
-	font-size: 20px;
-	color: #ff652f;
-}
-
+/* game instructions */
 .instructions {
 	color: #ccc;
 	font-weight: 400;
@@ -93,7 +73,6 @@ h6, span {
 	margin: 5px;
 	text-align: left;
 }
-
 .instructions ol {
     padding: 10px 40px 10px 40px;
     font-size: 18px;
@@ -107,7 +86,8 @@ h6, span {
     padding: 30px;
     border-radius: 7px;
     animation: fadeInRight 1s ease;
-} 
+}
+
 /* contains and hides hidden box and prevent overflow */
 .hidden-box::before,
 .hidden-box::after{
@@ -154,30 +134,26 @@ button.btn {
     display: flex;
     background-color: #ff652f;
     border-radius: 7px;
-    padding: 10px;
-    line-height: 25px;
-}
-
-.user {
-	display: flex;
-	line-height: 25px;
+    padding: 15px;
+	font-weight: 800;
+	font-size: 20px;
 }
 
 .question-box .question-number {
     font-size: 18px;
-    padding: 10px;
-    line-height: 25px;
+	padding-top: 20px;
 }
 .questions-box .question-text {
-    font-size: 18px;
+    font-size: 20px;
+	font-weight: 600;
 	line-height: 28px;
-	padding: 16px;
+	padding: 18px;
 	margin:0;
 }
 .questions-box .question-text img {
     max-width: 100%;
     display: block;
-    margin-top: 10px;
+    margin-top: 18px;
 }
 .questions-box .option-wrapper .option{
 	background-color: rgba(0, 0, 0, 0.5);;
@@ -211,6 +187,7 @@ button.btn {
 		opacity: 0.9;
 	}
 }
+/* credit: https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU */
 /* animated slide in green color effect to display correct option */
 .questions-box .option-wrapper .option.correct::before {
     content: '';
@@ -231,6 +208,7 @@ button.btn {
 	 transform: translateX(0%);	
 	}
 }
+/*-------------------------------------------*/
 
 /* animated slide in red color effect when incorrect option is chosen */
 .questions-box .option-wrapper .option.wrong::before{
@@ -268,7 +246,7 @@ button.btn {
     margin-right: 3px;
     margin-top: 15px;
 }
-
+/* credit: https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU */
 /* adds a cross or tick and color indicators red or green */
 .questions-box .answers-area div.correct{
 	background-color: green;
@@ -284,7 +262,7 @@ button.btn {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+/*-------------------------------------------------*/
 /* score box */
 .score-box{
 	text-align: center;
@@ -360,15 +338,15 @@ button.btn {
     	padding: 5px;
 	}
 	.myform {
-		padding: 5px 5px 10px;
+		padding: 5px 5px 5px;
 	}
 	.questions-box {
-	padding: 5px;
+	    padding: 5px;
 	}
     .questions-box .question-text img {
-	height: auto;
-	display: block;
-	margin-top: 10px;
+		height: auto;
+	    display: block;
+	    margin-top: 10px;
     }
 }
 /* media query medium screens */
@@ -378,11 +356,11 @@ button.btn {
     	padding: 10px;
 		height: 100%;
 	}
-	.form {
+	.myform {
 		padding: 10px 10px 15px;
 	}
 	.questions-box {
-	padding: 10px;
-	margin: auto;
+	    padding: 10px;
+	    margin: auto;
 	}
 }	 
