@@ -30,6 +30,8 @@ h1, h2 {
 }
 h6, span {
 	text-align: center;
+	font-weight: 800;
+	font-size: 20px;
 }
 
 /* header */
@@ -52,7 +54,7 @@ h6, span {
 }
 
 /* form on front page */
-.form {
+.myform {
     position: relative;
     width: 100%;;
     max-width: 700px;
@@ -63,21 +65,21 @@ h6, span {
     text-align: center;
 }
 
-.form .input-field {
+/* .myform .input-field {
     position: relative;
 }
 
-.form .input-field input {
+.myform .input-field input {
     width: 100%;
     padding: 10px 0;
     margin-bottom: 30px;
     background-color: transparent;
     color: #ccc;
-}
+} */
 
-.form .input-field label {
+/* .myform .input-field label {
     color: #ccc;
-}
+} */
 
 .fa-user {
 	font-size: 20px;
@@ -85,10 +87,10 @@ h6, span {
 }
 
 .instructions {
-	color: #fff;
+	color: #ccc;
 	font-weight: 400;
 	font-size: 20px;
-	margin-top: 10px;
+	margin: 5px;
 	text-align: left;
 }
 
@@ -152,19 +154,18 @@ button.btn {
     display: flex;
     background-color: #ff652f;
     border-radius: 7px;
-    padding: 15px;
+    padding: 10px;
     line-height: 25px;
 }
 
 .user {
 	display: flex;
-	padding-top 0;
 	line-height: 25px;
 }
 
 .question-box .question-number {
     font-size: 18px;
-    padding-bottom: 10px;
+    padding: 10px;
     line-height: 25px;
 }
 .questions-box .question-text {

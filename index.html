@@ -24,12 +24,13 @@
     <div class="home-page-box">
 
         <!-- form elements and submit buttons-->
-        <form action="" class="form" name="id" onsubmit="Submitted(event)">
+        <form class="myform" name="id" onsubmit="submitted(event)">
             <div class="input-field">
-                <input type="text" id="name" required>
-                <label for="name"><i class="fas fa-user"></i> Enter name:</label>
+                <!-- <i class="material-icons prefix">account_box</i> -->
+                <input type="text" id="name" required onblur="this.value=removeSpaces(this.value);">
+                <label for="name"> Enter name:</label>
                 <button type="submit" class="btn" onclick="this.style.display='none'">Submit</button>
-                <h6>How to play: </h6>
+                <h5>How to play: </h5>
             </div>
 
             <!-- game instructions-->
@@ -46,7 +47,7 @@
             <!--create class to display total questions in quiz and function to start quiz game-->
             <div>
                 <hr>
-                <p><h6>Total number of questions: </h6><span class="number-of-questions"></span></p>
+                <p><h5>Total number of questions: </h5><span class="number-of-questions"></span></p>
                 <button type="button" class="btn" onclick="startQuiz()">Start quiz</button>
             </div>
         </form>
@@ -57,7 +58,7 @@
         <div class="question-box-header">
             <div class="question-number"></div>
             <div class="user">
-                <h6>Welcome! <span class="name"></h6>
+                <h6>Welcome! <span class="name"><h6></span>
             </div>
         </div>
        
