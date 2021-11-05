@@ -38,11 +38,11 @@ h6, span {
 .quiz-name {
     text-align: center;
     text-decoration: none;
-}
+} 
 
 .quiz-name .logo {
     align-content: center;
-    padding: 10px 0 10px;
+    padding: 10px 0 5px;
 }
 
 /* main home page container */
@@ -338,7 +338,7 @@ button.btn {
     	padding: 5px;
 	}
 	.myform {
-		padding: 5px 5px 5px;
+		padding: 5px 0 5px;
 	}
 	.questions-box {
 	    padding: 5px;
@@ -348,6 +348,11 @@ button.btn {
 	    display: block;
 	    margin-top: 10px;
     }
+
+	.instructions ol {
+		padding: 10px 20px 10px 20px;
+		font-size: 18px;
+	}
 }
 /* media query medium screens */
 @media screen and (max-width: 960px) {
@@ -357,7 +362,7 @@ button.btn {
 		height: 100%;
 	}
 	.myform {
-		padding: 10px 10px 15px;
+		padding: 10px 20px 15px;
 	}
 	.questions-box {
 	    padding: 10px;

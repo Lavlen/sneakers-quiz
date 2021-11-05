@@ -1,3 +1,5 @@
+// credit: https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU 
+
 // create variables to hold the elements return from within the document
 const homePageBox = document.querySelector(".home-page-box");
 const quizBox = document.querySelector(".questions-box");
@@ -15,20 +17,6 @@ let newOptions = []; // holds new options array
 let correctAnswers = 0; // holds the value of the number of correctly answered questions
 let answered = 0; // holds the value of the number of attempted questions
 // let userName = sessionStorage.getItem("name"); // holds the value of the username entered in the form
-
-// function removeSpaces(string) {
-//     return string.split(' ').join('');
-// }
-
-// // stores usernames when submitted
-// function submitted(e) {
-//     e.preventDefault();
-//     let namee = document.forms["id"]["name"].value;
-//     sessionStorage.setItem("name", namee);
-//     alert("Your name has been")
-// }
-// // returns the value of the name submitted in the form
-// document.querySelector("span.name").innerHTML = userName;
 
 // load home page
 function loadHomePage() {

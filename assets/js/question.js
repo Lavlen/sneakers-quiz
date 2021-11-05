@@ -1,6 +1,5 @@
 
-
- // Array of Objects
+ // Objects array
  const quiz = [
     {
         q:'Which were the most expensive sneakers ever sold in a private sale ?',
