@@ -49,7 +49,7 @@ h6, span {
 /* main home page container */
 .home-page-box {
 	margin-top: 10px;
-    display: flex;
+    /* display: flex; */
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
