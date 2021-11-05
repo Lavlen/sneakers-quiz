@@ -183,3 +183,4 @@ function restartQuiz() {
     resetQuiz();
     startQuiz();
 }
+
