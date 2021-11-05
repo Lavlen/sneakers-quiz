@@ -25,6 +25,7 @@ function submitted(e) {
     e.preventDefault();
     let namee = document.forms["id"]["name"].value;
     sessionStorage.setItem("name", namee);
+    alert("Your name has been")
 }
 // returns the value of the name submitted in the form
 document.querySelector("span.name").innerHTML = userName;
