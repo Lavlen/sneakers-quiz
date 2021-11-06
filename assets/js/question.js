@@ -114,7 +114,7 @@
       options:['Vans','Keds','Pods','kicks'],
       answer:0
     }
-   ]
+   ];
   
   
   
