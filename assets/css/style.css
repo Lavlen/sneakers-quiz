@@ -336,7 +336,9 @@ button.btn {
 	}
 	body {
     	padding: 5px;
-		background-image: url("../images/pic.jpg");
+		background-image: none;
+		background: url("../images/pic.jpg") no-repeat center center;
+		background-size: cover;
 	}
 	.myform {
 		padding: 5px 0 5px;
