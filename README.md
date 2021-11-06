@@ -56,7 +56,7 @@ With the value of the sports brands trainers industry exceeding £50 billion, th
 ### Features for the future
 * Username and password validation functionality
 * Countdown timer for answering questions
-* tidbits popups on selected question that provide interesting facts
+* Tidbits popups on selected question that provide interesting facts
 * compulsary username entry
 * The user will have the ability to set the difficulty level of the questions.
 
@@ -77,7 +77,7 @@ With the value of the sports brands trainers industry exceeding £50 billion, th
 
 # Design
 ## Color scheme
-The colors used in the app design is intended to make it playful, cool and young. Shades of light grey, white (#fff, #CCC) and orange (#ff652f) are the main colours used in the design and stand out against dark transparent containers (rgba(0, 0, 0, 0.5)) on top of a dark background. this is the colour scheme throughout the site.
+The colors used in the app design is intended to make it playful, cool and young. White (#fff) and orange (#ff652f) are the main colours used in the design and stand out against dark transparent containers (rgba(0, 0, 0, 0.5)) on top of a dark background. this is the colour scheme throughout the site.
 
 A hover effect ever so slightly changes the shade of each option box to a lighter shade of grey (#252525) to give the user an interactive feel when playing the quiz. Green and Red background colours update both the answer indicators at the bottom of the questions container and option boxes when correct and incorrect options are selected.
 
@@ -154,7 +154,7 @@ Both JavaScript files question.js and script.js were validated at [JSHint.com](h
 11. As a player I want a performance summary at the end of the game to know my score and the number of correct and incorrect answers I gave. 
   - This is provided at the end of the quiz
 10. As a user I should be able to access the site owners social media pages to learn more about them and stay informed about the work they are doing
-  - asscess to the owners' social media is available through links visible in the footer section of the site on every page.
+  - access to the owners' social media is available through links visible in the footer section of the site on every page.
 
   ### Further testing
 The web application was tested on the 5 most commonly used browsers for browser specific compatibility errors.The types were Google Chrome, Microsoft Edge, Internet Explorer, Safari and Firefox. No errors were identified on any of the browser platforms.
@@ -164,7 +164,7 @@ The application was viewed and played on the following devices a Windows' deskto
 User testing was carried out by Friends and family members in an effort to locate known bugs and or user experience issues.
 
 ## Bugs
-* A small portion of the viewport at the bottom of the page on tablets when being used in the portrait position, is not covered by the whole of the page's background and leaves a white space at the bottom of the screen.  
+* A small portion of the viewport at the bottom of the page on tablets when being used in the portrait position, was not covered by the whole of the page's background as a result the repeat attribute was used to ensure cover which may bevisible to the user.  
 
 # Deployment
 ### GitHub pages provides the hosting service for the site which is deployed from the Github repository by:
@@ -191,7 +191,7 @@ User testing was carried out by Friends and family members in an effort to locat
 
 # Credits
 ## Code
-A portion of the code for the web site was taken from [here](https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU)
+Though significant changes were made to the code the idea and majority of the code was taken from [here](https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU)
 and modified.
 
 ## Media
