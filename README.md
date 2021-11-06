@@ -123,7 +123,9 @@ Used to create wireframe for small medium and large devices.
 *   Online IDE used for processing the code.
 
 # Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate the project code to ensure there were no syntax errors. Alighthouse report was generated to ensure quality standards were met. The reports can be seen [here](https://github.com/Lavlen/sneakers-quiz/tree/main/testing)
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project code to ensure there were no syntax errors. Alighthouse report was generated to ensure quality standards were met. 
+
+Both JavaScript files question.js and script.js were validated at [JSHint.com](https://jshint.com/). There were no errors only warnings: (use 'esversion: 6'). There was an invalid semicolon error message and references to functions not used but they were in fact functions called in the index file. The full reports can be seen [here](https://github.com/Lavlen/sneakers-quiz/tree/main/testing)
 
 ##  Testing User Stories (UX)
 1. As a first time visitor to the site I want to be able to read step by step instructions on how to play the game.
