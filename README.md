@@ -3,18 +3,17 @@
 [View site here](https://lavlen.github.io/sneakers-quiz/)
 
 The Sneakers Quiz is a “guess that sneakers” quiz website that ask the user to pick one of four answers to questions solely about sneakers. The multiple choice quiz app is supported by a range of images of sneakers to ensure a variety of question types and increase the visual appeal of the site. Subtle animations and a simple system for providing the correct answers when wrong ones are selected; keeps the game interesting.
-With the value of the sports brands trainers industry exceeding £50 billion, the Sneakers quiz should have mass appeal to users between the ages of 16 to 24 years, the demographic that represents the most prolific shoes buyers. The owners intend to provide entertainment for as many users as possible and therefore chose this appealing subject area.
-The app was developed as a fun way for players to develop their general knowledge about trainers.
+With the value of the sports brands trainers industry exceeding £50 billion, the Sneakers quiz should have mass appeal to users between the ages of 16 to 24 years, the demographic that represents the most prolific shoes buyers. The objective of the app is to provide entertainment and general knowledge in a fun way for lots of people.
 
 # User Experience  
 
 <img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/responsiveIImages.PNG" style="max-width:50%;">
 
 ## Features
-**Header:** The header logo represents what the site is about; is visible on every page of the app and serves the additional purpose of a link to the home page of the site.
+**Header:** The header logo represents what the site is about and was designed to make the site stand out and give it a strong identity. It is visible on every page and serves the additional purpose of a link to the home page of the site.
 <p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/headerLogoimage.PNG" style=width="150" height="100"></p>
 
-**Footer:** Font awesome icon logos of the website owners social media accounts youtube, facebook, instagram and Twitter can be accessed here.
+**Footer:** Font awesome icon logos of the website owner's social media accounts, youtube, facebook, instagram and Twitter can be accessed here. The footer is also visible on every page.
 
 <p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/footerImage.PNG" style=width="150" height="100"></p>
 
@@ -22,9 +21,7 @@ The app was developed as a fun way for players to develop their general knowledg
 
 <p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/homePage.PNG" style=width="300" height="350"></p>
 
-**User logging field:** enables the user to enter and submit thier usernames optionally, which is then displayed on the quiz-container header whilst the game is in progress. This personalises the playing experience and makes the visitor feel welcome. 
-
-**Instructions:** easy to understand instructions on how to play the quiz and navigate the site is provided so that the user can get started with playing the game as quickly as possible
+**Instructions:** easy to understand instructions on how to play the quiz and navigate the site is provided so that the user can get started with playing the game as quickly as possible.
 
 **Start Quiz button;** the option to start the game as soon as the home page is loaded is available to visitors who have previously attended the site and first time visitors who do not care much about reading instructions.
 
@@ -32,13 +29,13 @@ The app was developed as a fun way for players to develop their general knowledg
 
 <p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/questionsPage.PNG" style=width="300" height="350"></p>
 
-**Questions Header:** displays the question number of the question in progress, total questions available to be answered and a welcome user message to the user. This area enables users to monitor their progress.
+**Questions Header:** displays the question number of the question in progress and the total questions available to be answered. This area enables users to monitor their progress.
 
-**Question area:** this is where the quiz questions are presented to the user which are sometimes accompanied by images of the shoes the questions are about.
+**Question area:** this is where the quiz questions are presented to the user which includes images of the shoes the questions are about.
 
-**Options box:** these are the multiple choice options from which the user chooses an answer for the question on display by clicking with the mouse pointer or touching the option on a smart phone, tablet or other touch screen devices. If the chosen option is correct it becomes green through an animated green background fade in transition and red if its incorrect. If the option chosen is incorrect the correct option becomes green to inform the user what the correct answer is.
+**Options box:** these are the multiple choice options from which the user chooses an answer for the question on display with the aid of a mouse pointer or by touching the option on a smart phone, tablet or other touch screen devices. If the chosen option is correct it becomes green through an animated green background fade in transition and red if it is incorrect. If the option chosen is incorrect the correct option becomes green to inform the user what the correct answer is.
 
-**Buttons:** a "Next" and "Reset quiz" button keeps the pace of progression of the quiz in the users control. the next button enables the user to move on to the next question at any point whilst the quiz is in progess. the reset quiz button restarts the quiz and allows those who are unsatisfied with their progress to restart at any time.
+**Buttons:** a "Next" and "Reset quiz" button keeps the pace of progression of the quiz in the users control. The next button enables the user to move on to the next question at any point whilst the quiz is in progess. The reset quiz button restarts the quiz and enables those who are unsatisfied with their progress to restart at any time.
 
 **Answers area:** these are radio buttons updated with red coloured crosses when the users choice is  incorrect, green tick when it is correct and left empty when a question is skipped without attempting to answer it.
 
@@ -46,38 +43,41 @@ The app was developed as a fun way for players to develop their general knowledg
 
 <p align="left"><img src="https://github.com/Lavlen/sneakers-quiz/blob/main/assets/images/scoreBox.PNG" style=width="300" height="350"></p>
 
-**Table:** the users results are presented in a tabular when the game is completed. The data provided includes the total number of questions in the quiz, the number of attempted questions, correctly and incorrectly answered questions, score percentage and score.
+**Table:** the users results are presented in a table when the game is completed. The data provided includes the total number of questions in the quiz, the number of attempted questions, correctly and incorrectly answered questions, score percentage and score.
 
-**Buttons:** a couple of buttons gives the user the options of restarting the quiz (Restart Quiz) button or returning to the home page (Home Page) button.
+**Buttons:** a couple of buttons gives the user the options of restarting the quiz (Restart Quiz) button or returning to the home page (Home Page) button. This provides visitors wih more control over their experience with the app.
 
 ### Other features
 * Responsive on all device sizes
-* include reactive elements
+* Rncludes reactive elements
+* Scope to change and increase the number of available questions easily, though requires technical knowledge
+* The number of questions can be increased or decreased easily from the back end.
 
 ### Features for the future
 * Username and password validation functionality
 * Countdown timer for answering questions
 * tidbits popups on selected question that provide interesting facts
 * compulsary username entry
+* The user will have the ability to set the difficulty level of the questions.
 
 ## User Stories
 
 * As a first time visitor to the site I want to be able to read step by step instructions on how to play the game.
 * As A regular site user I want to be presented with new questions each time I play the game.
-* As a user, I want to be able to use the app on my desktops, tablets and mobile devices.
+* As a user, I want to be able to use the app on my desktop, tablet and smart phone.
 * As a user I want to be able to restart the game at any point should I not be satisfied with my progress.
 * As a visitor to the site I want to be able to navigate it easily and not be confused at any point
 * As a visitor to the site I should be able to access the home page from any page on the site.
 * As an avid gamer I want to be able to monitor my progress throughout the game and have the option to restart should I be dissatisfied with my performance.
-* As a player of the game I want to know what the correct answers are for the questions I answered incorrectly.
+* As a player, I want to know what the correct answers are for the questions I answered incorrectly.
 * As a visitor I want to manage the pace at which the game progresses so that I can think about the answers to the questions before answering.
 * As a lover of sneakers I want be presented with questions displaying images of sneakers.
-* As a player I want a performance summary at the end of the game to know my score and the number of correct and incorrect answers I gave
-* As a user I should be able to access the site owners social media pages to learn more about them and stay informed about the work they are doing
+* As a player I want a performance summary at the end of the game to know my score and the number of correct and incorrect answers I gave.
+* As a user I should be able to access the site owners social media pages to learn more who they are and be kept in the loop about other projects.
 
 # Design
 ## Color scheme
-The colors used in the app design is intended to make it playful, cool and young. Shades of light grey, white (#fff, #CCC) and orange (#ff652f) are the main colours used in the design and stand out against dark transparent containers (rgba(0, 0, 0, 0.5)) on top of a dark background on all three pages of the site.
+The colors used in the app design is intended to make it playful, cool and young. Shades of light grey, white (#fff, #CCC) and orange (#ff652f) are the main colours used in the design and stand out against dark transparent containers (rgba(0, 0, 0, 0.5)) on top of a dark background. this is the colour scheme throughout the site.
 
 A hover effect ever so slightly changes the shade of each option box to a lighter shade of grey (#252525) to give the user an interactive feel when playing the quiz. Green and Red background colours update both the answer indicators at the bottom of the questions container and option boxes when correct and incorrect options are selected.
 
@@ -87,7 +87,7 @@ The site's footer text and social media font awesome Icons are also in harmony w
 "Lato" and "Oswald" with "Sans serif" as the fall back font in the event a browser does not support the first choices.
 
 ## Images
-A variety of images mostly of sneakers used as part of the questions makes the quiz more fun and adds to the variety of types of questions that can be asked during user sessions. The stand out logo image gives the site character and makes it appealing to its young users.
+A variety of images mostly of sneakers used as part of the questions, makes the quiz more fun and adds to the variety of types of questions that are presented during user sessions. The stand out logo image gives the site character and makes it appealing to a young audience.
 
 ## Wireframes
 [Draw.io](https://app.diagrams.net/) was used to create the wireframes:
@@ -116,16 +116,19 @@ style buttons,
 * [Draw.io](https://app.diagrams.net/)
 Used to create wireframe for small medium and large devices.
 
+* [Snipping tool](https://www.microsoft.com/en-us/p/screenshot-snipping-tool/9n9kcj2f020j#activetab=pivot:overviewtab)
+Used for screen snipping the code validations conducted in JSHint, W3C and lighthouse
+
 ### Git
-*   Online version control platform used for recording changes made to the code by storing it in a repository
+*   Remote hosting version control platform for recording changes made to code by storing it in a repository
 
 ### Gitpod
 *   Online IDE used for processing the code.
 
 # Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate the project code to ensure there were no syntax errors. Alighthouse report was generated to ensure quality standards were met. 
+Both the W3C online Markup Validator and CSS Validator were used to check the code for syntax errors. A lighthouse report was generated to ensure quality standards were met. 
 
-Both JavaScript files question.js and script.js were validated at [JSHint.com](https://jshint.com/). There were no errors only warnings: (use 'esversion: 6'). There was an invalid semicolon error message and references to functions not used but they were in fact functions called in the index file. The full reports can be seen [here](https://github.com/Lavlen/sneakers-quiz/tree/main/testing)
+Both JavaScript files question.js and script.js were validated at [JSHint.com](https://jshint.com/). There were no errors, only warnings: (use 'esversion: 6'). There was an invalid semicolon error message and references to functions not used but they were in fact functions called in the index file. The full reports can be seen [here](https://github.com/Lavlen/sneakers-quiz/tree/main/testing)
 
 ##  Testing User Stories (UX)
 1. As a first time visitor to the site I want to be able to read step by step instructions on how to play the game.
@@ -164,16 +167,16 @@ User testing was carried out by Friends and family members in an effort to locat
 * A small portion of the viewport at the bottom of the page on tablets when being used in the portrait position, is not covered by the whole of the page's background and leaves a white space at the bottom of the screen.  
 
 # Deployment
-**GitHub pages provides the hosting service for the site which is deployed from the Github repository by:**
+### GitHub pages provides the hosting service for the site which is deployed from the Github repository by:
 
 1.  Login into Github
-2.  select the repository of the project for deployment
+2.  Select the repository of the project for deployment
 3.  Select the "settings" option at the top and towards the right of the page
 4.  Scroll down to the "GitHub pages" section
-5.  click on the link "Pages settings now has its own dedicated tab! Check it out here!"
-6.  select the drop down list box "None", select "main" then "save"
+5.  Click on the link "Pages settings now has its own dedicated tab! Check it out here!"
+6.  Select the drop down list box "None", select "main" then "save"
 7.  Fing the "GitHub pages" section again at the bottom of the page.
-8.  select the link next to the text "your site is now ready to be published"
+8.  Select the link next to the text "your site is now ready to be published"
 
 ### Cloning the project to Gitpod
 
@@ -197,6 +200,7 @@ The image in the logo was taken from [http:www.clker.com](http://www.clker.com/c
 The images for the sites background was found in the youtube description of this [vloggers channel](https://www.youtube.com/watch?v=1ydfKDwsYbU&t=914s)
 
 The images for the questions images were taken from:
+* [Pexel.com](https://www.pexels.com/)
 * [factmonster.com](https://www.factmonster.com/culture-entertainment/fashion/history-sneakers)
 * [complex.com](https://www.complex.com/sneakers/2011/07/50-sneaker-facts-you-didnt-know/6)
 * [theconversation.com](https://theconversation.com/the-history-of-sneakers-from-commodity-to-cultural-icon-127268)
