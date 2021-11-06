@@ -10,10 +10,10 @@
 
 body {
     font-size: 16px;
-    color: #ccc;
+    color: #fff;
 	font-family: 'lato', sans-serif;
     font-weight: 400;
-    background-image: url("../images/pic3.png");
+    background-image: url("../images/background-img.png");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -67,7 +67,7 @@ h6, span {
 
 /* game instructions */
 .instructions {
-	color: #ccc;
+	color: #fff;
 	font-weight: 400;
 	font-size: 20px;
 	margin: 5px;
@@ -81,7 +81,7 @@ h6, span {
 /* hidden box with next question button*/
 .hidden-box {
     max-width: 700px;
-    background-color: #ccc;
+    background-color: #fff;
     margin: 20px auto;
     padding: 30px;
     border-radius: 7px;
@@ -101,7 +101,7 @@ h6, span {
 
 button.btn {
     background-color: #ff652f;
-    color: #ccc;
+    color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 12px;
@@ -223,10 +223,10 @@ button.btn {
     animation: slideInLeft .5s ease forwards
    }
 .questions-box .option-wrapper .option.wrong{
-    color:#ffffff;
+    color:#fff;
    }
 .questions-box .option-wrapper .option.correct{
-    color:#ffffff;
+    color:#fff;
    }
 .questions-box .btn{
        margin:15px 0;
@@ -275,7 +275,7 @@ button.btn {
 .score-box h1{
 	font-size: 36px;
 	line-height: 42px;
-	color:#ccc;
+	color:#fff;
 }
 
 /* table in score box that displays results */
@@ -285,10 +285,10 @@ button.btn {
 	margin:30px 0;
 }
 .score-box table td{
-	border:1px solid #ccc;
+	border:1px solid #fff;
 	padding:8px 15px;
 	font-weight: 500;
-	color:#ccc;
+	color:#fff;
 	width: 50%;
 	text-align: left;
 	font-size: 18px;
@@ -336,6 +336,7 @@ button.btn {
 	}
 	body {
     	padding: 5px;
+		background-image: url("../images/pic.jpg");
 	}
 	.myform {
 		padding: 5px 0 5px;

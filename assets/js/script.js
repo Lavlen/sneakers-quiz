@@ -1,5 +1,5 @@
 // credit: https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU 
-
+// though significant changes have been made credit the author above for this code
 // create variables to hold the elements return from within the document
 const homePageBox = document.querySelector(".home-page-box");
 const quizBox = document.querySelector(".questions-box");
