@@ -175,6 +175,17 @@ User testing was carried out by Friends and family members in an effort to locat
 7.  Fing the "GitHub pages" section again at the bottom of the page.
 8.  select the link next to the text "your site is now ready to be published"
 
+### Cloning the project to Gitpod
+
+1. Go to https://github.com/
+2. Log into your account
+3. Select by clicking on the repository to be cloned
+4. Click the drop-down list arrow on the "Code" tab
+5. Click on the copy link icon next to the url of the repository to copy it
+6. Create a new repository and launch Gitpod to create a workspace from it
+7. in the terminal type: "git clone"
+8. paste the copied link and press enter
+
 # Credits
 ## Code
 A portion of the code for the web site was taken from [here](https://www.youtube.com/playlist?list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU)
