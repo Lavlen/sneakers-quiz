@@ -72,7 +72,7 @@ function getNextQuestion() {
     // set transition animation delay on question options 
     const optionLen = questionInProgress.options.length;
     for(let i=0; i<optionLen; i++){
-        newOptions.push(i)
+        newOptions.push(i);
     }
     optionWrapper.innerHTML = '';
     let animationDelay = 0.20;
@@ -89,8 +89,8 @@ function getNextQuestion() {
        optionWrapper.appendChild(option);
        option.setAttribute("onclick","getResult(this)");
     }
-    console.log(newQuestions)
-    console.log(newQuestions)
+    console.log(newQuestions);
+    console.log(newQuestions);
     questionCounter++;
 }
 
