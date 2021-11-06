@@ -166,6 +166,8 @@ User testing was carried out by Friends and family members in an effort to locat
 ## Bugs
 * A small portion of the viewport at the bottom of the page on tablets when being used in the portrait position, was not covered by the whole of the page's background as a result the repeat attribute was used to ensure cover which may bevisible to the user.  
 
+The user input field was removed due to problems with getting the script to work consistently therefore there is a difference with the wireframes and actual interface of the app in the live environment.
+
 # Deployment
 ### GitHub pages provides the hosting service for the site which is deployed from the Github repository by:
 
