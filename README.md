@@ -156,12 +156,12 @@ Both JavaScript files question.js and script.js were validated at [JSHint.com](h
   ### Further testing
 The web application was tested on the 5 most commonly used browsers for browser specific compatibility errors.The types were Google Chrome, Microsoft Edge, Internet Explorer, Safari and Firefox. No errors were identified on any of the browser platforms.
 
-The application was viewed and played on the following devices windows desktop PC, a ProBook-450-G4 laptop, iPhone7, Samsung Galaxy S7 and S9. The app functioned as it should on the various device sizes.
+The application was viewed and played on the following devices a Windows' desktop PC, a ProBook-450-G4 laptop, IPhone7, Samsung Galaxy S7 and S9. The app functioned as it should on the various device sizes, barring tablets. Detail is provided in the bugs section.
 
 User testing was carried out by Friends and family members in an effort to locate known bugs and or user experience issues.
 
 ## Bugs
-* Prior to resolving the issue the background image was not covering the whole of the browser window on medium size devices. 
+* A small portion of the viewport at the bottom of the page on tablets when being used in the portrait position, is not covered by the whole of the page's background and leaves a white space at the bottom of the screen.  
 
 # Deployment
 **GitHub pages provides the hosting service for the site which is deployed from the Github repository by:**
